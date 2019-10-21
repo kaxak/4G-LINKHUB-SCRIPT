@@ -61,7 +61,7 @@ class LinkHUB:
                 rJSON = json.loads(r.text)
                 return rJSON
             else :
-                print('[Erreur]', 'http-{}'.format(r.status_code))
+                print('[Error]', 'http-{}'.format(r.status_code))
       
         except json.JSONDecodeError(msg, doc, pos):
             print('[Error]', msg)
