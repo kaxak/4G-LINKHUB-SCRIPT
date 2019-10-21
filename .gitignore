@@ -1,0 +1,4 @@
+!*.py
+/obj
+*.pyproj*
+*.txt
